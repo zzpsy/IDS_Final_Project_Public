@@ -11,6 +11,8 @@
 2. Create Alubms/Set Permissions/Upload Photos 
 3. Automatic Photo Labelling
 4. Photo Search
+## Architecture:
+![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/architecture.png?raw=true)
 ## Example webpages:
 #### 1. An user creating a new album
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot3.png?raw=true)
