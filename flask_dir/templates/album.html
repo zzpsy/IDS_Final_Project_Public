@@ -1,0 +1,106 @@
+<!--This html file is altered from the offical example of bootstrap 4.0 tuotrials in the link below-->
+<!--  https://getbootstrap.com/docs/4.0/examples/sign-in/  -->
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          
+          <!--<nav class="navbar navbar-light bg-light">-->
+          <!--  <form class="form-inline" form method="post" action = "/search/{{albumid}}">-->
+          <!--    <input class="form-control mr-sm-2" id="tag" name="tag" type="search" placeholder="Enter the tag for the photo" aria-label="Search">-->
+          <!--    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+          <!--  </form>-->
+          <!--</nav>-->
+          
+          {% if not is_tag_search %}
+          <h1 class="jumbotron-heading">{{albumname}}</h1>
+          
+          <p class="lead text-muted">
+            Hi {{username}}, this is your album: {{albumname}}. 
+            <br>You can visit your other albums or create a new album:
+          </p>
+          
+          <p>
+            <div class="list-group">
+              {% for album in albumlist %}
+              <a href="/album/{{album[0]}}" class="list-group-item list-group-item-action py-2">{{album[1]}}</a>
+              {% endfor %}
+            </div>
+            
+          </p>
+          <a class="btn btn-primary" href="/create_album/{{username}}" role="button">Create Album</a>
+          {% endif %}
+          
+          {% if is_tag_search %}
+          <h1 class="jumbotron-heading">{{search_tag}}</h1>
+          <p class="jumbotron-heading">
+            Hi {{username}}, you are viewing photos with tag: {{search_tag}}
+            <br>You can visit your other albums:
+          </p>
+          <p>
+            <div class="list-group">
+              {% for album in albumlist %}
+              <a href="/album/{{album[0]}}" class="list-group-item list-group-item-action py-2">{{album[1]}}</a>
+              {% endfor %}
+            </div>
+          </p>
+          {% endif %}
+          
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            {% for photo in photolist %}
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src={{photo[0]}} alt="Card image cap">
+                <h5>
+                {% for tag in photo[1] %}
+                <a href="/album/{{albumid}}/{{tag}}" class="badge badge-info">{{tag}}</a>
+                {% endfor %}
+                </h5>
+                {% if is_tag_search %}
+                <p class="text-muted">
+                   By {{photo[2]}}
+                </p>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+            
+
+            {% if not is_tag_search %}
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                    <div class="card-body">
+
+                      <h3> There should be sth </h3>
+                      <form form method="post" action="" enctype="multipart/form-data">
+                        <div class = "form-group">
+                          <label for "image">Upload an image to your album</label>
+                          <input type = "file" class = "form-control" id ="image" name = "image">  
+                        </div>
+                        <div class = "form-group">
+                          <input type = "submit" class = "btn btn-sm btn-outline-secondary" name = "submit" value ="submit the image">  
+                        </div>  
+                      </form>
+
+                    </div>
+                  </div>
+              </div>
+            {% endif %}
+            
+          </div>
+        </div>
+      </div>
+
+    </main>
+{% endblock %}

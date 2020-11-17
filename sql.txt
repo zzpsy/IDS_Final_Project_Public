@@ -1,0 +1,44 @@
+CREATE TABLE user(
+username VARCHAR(20) NOT NULL,
+password VARCHAR(30) NOT NULL,
+PRIMARY KEY (username)
+);
+
+CREATE TABLE friendship(
+username1 VARCHAR(20),
+username2 VARCHAR(20),
+PRIMARY KEY (username1, username2),
+FOREIGN KEY (username1) REFERENCES user(username),
+FOREIGN KEY (username2) REFERENCES user(username)
+);
+
+/*
+ permission:
+ private: only self can see
+ protected: only friends and self can see
+ public: all can see
+*/
+CREATE TABLE album(
+albumid int AUTO_INCREMENT,
+albumname VARCHAR(20),
+username VARCHAR(20),
+permission ENUM('private', 'protected','public'),
+PRIMARY KEY(albumid),
+FOREIGN KEY(username) REFERENCES user(username)
+);
+
+CREATE TABLE photo(
+photoid int AUTO_INCREMENT,
+photoname VARCHAR(20) DEFAULT 'unnamed photo',
+albumid int NOT NULL,
+photopath VARCHAR(50),
+PRIMARY KEY (photoid),
+FOREIGN KEY (albumid) REFERENCES album(albumid)
+);
+
+CREATE TABLE photo_tag(
+photoid int NOT NULL,
+tag VARCHAR(20) NOT NULL,
+PRIMARY KEY(photoid, tag),
+FOREIGN KEY(photoid) REFERENCES photo(photoid)
+);

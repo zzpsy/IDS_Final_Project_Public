@@ -1,0 +1,22 @@
+branch-defaults:
+  master:
+    environment: null
+    group_suffix: null
+environment-defaults:
+  album-app:
+    branch: master
+    repository: album-app
+global:
+  application_name: album-app
+  branch: master
+  default_ec2_keyname: 445367323225_us-east-2_my_key_pair
+  default_platform: Python 3.6
+  default_region: us-east-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: album-app
+  sc: git
+  workspace_type: Application

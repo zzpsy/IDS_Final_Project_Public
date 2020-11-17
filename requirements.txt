@@ -1,0 +1,6 @@
+Flask==1.1.2
+mysql-connector-python==8.0.21
+python-dotenv==0.14.0
+pytest==6.1.1
+boto==2.49.0
+boto3==1.16.1
