@@ -11,8 +11,10 @@
 2. Create Alubms/Set Permissions/Upload Photos 
 3. Automatic Photo Labelling
 4. Photo Search
-## Example webpage:
-#### 1. An user visting one of his/her own albums
+## Example webpages:
+#### 1. An user creating a new album
+![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot3.png?raw=true)
+#### 2. An user visting one of his/her own albums
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot1.png?raw=true)
-#### 2. An user searching for photos with food in all of the albums he/she has permission to.
+#### 3. An user searching for photos with food in all of the albums he/she has permission to.
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot2.png?raw=true)
