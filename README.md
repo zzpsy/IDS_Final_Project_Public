@@ -1,5 +1,6 @@
 # IDS_Final_Project
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot1.png?raw=true)
+![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot2.png?raw=true)
 #### This is an album web app with created by Zheng Zhang for IDS 706 Data Engineering Systems.
 #### Tools/framwork: 
 1. Flask
