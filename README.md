@@ -13,7 +13,7 @@
 #### Main functionalities: 
 1. Register/Login
 2. Create Alubms/Set Permissions/Upload Photos 
-3. Automatic Photo Labelling
+3. Automatic Image Classification for the Uploaded Photos
 4. Photo Search
 ## Architecture:
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/architecture.png?raw=true)
@@ -22,7 +22,7 @@
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot3.png?raw=true)
 #### 2. An user visting one of his/her own albums
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot1.png?raw=true)
-#### 3. An user uploading a new photo(the image labelling will happen automatically in the backend after the photo is uploaded. The result will be stored and displayed in frontend).
+#### 3. An user uploading a new photo(the backend will automatically classify the tags that the photo belongs to after it is uploaded. The result will be stored and displayed in frontend).
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot4.png?raw=true)
 #### 4. An user searching for photos with food in all of the albums he/she has permission to.
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot2.png?raw=true)
