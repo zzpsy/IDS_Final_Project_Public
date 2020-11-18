@@ -1,7 +1,7 @@
 # IDS_Final_Project
 #### This is the repository for an independent project created by Zheng Zhang. 
 ## Demo Video
-#### If you wish, you can watch the video demonstration below.
+#### You can click on the image below to watch the video demonstration.
 [![demo video](https://i9.ytimg.com/vi/3Xht7LwqyMQ/mq2.jpg?sqp=CKSH0v0F&rs=AOn4CLCLtcmWx5V9ZoEUQWfM7vKeem1bfg)](https://www.youtube.com/watch?v=3Xht7LwqyMQ "demo video")
 ## Description
 #### This project is an album web app created for the course IDS 706 Data Engineering Systems.
