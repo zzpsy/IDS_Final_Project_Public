@@ -1,5 +1,5 @@
 # IDS_Final_Project
-## This is the repository for a independent project created by Zheng Zhang. 
+#### This is the repository for a independent project created by Zheng Zhang. 
 ## Description
 #### This project is an album web app created for the course IDS 706 Data Engineering Systems.
 #### If you wish, you can watch the video demonstration of it below.
