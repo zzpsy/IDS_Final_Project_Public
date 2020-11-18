@@ -1,6 +1,8 @@
 # IDS_Final_Project
+## This is the repository for a independent project created by Zheng Zhang. 
 ## Description
-#### This is an album web app with created by Zheng Zhang for IDS 706 Data Engineering Systems.
+#### This project is an album web app created for the course IDS 706 Data Engineering Systems.
+#### If you wish, you can watch the video demonstration of it below.
 #### Tools/framwork: 
 1. Flask
 2. AWS(EC2, S3, RDS, Rekognition, CodeBuild)
