@@ -21,7 +21,9 @@
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot3.png?raw=true)
 #### 2. An user visting one of his/her own albums
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot1.png?raw=true)
-#### 3. An user uploading a new photo(the backend will automatically classify the tags that the photo belongs to after it is uploaded. The result will be stored and displayed in frontend).
+#### 3. An detailed look of past classification result
+![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/detailes_about_tag.png)
+#### 4. An user uploading a new photo(the backend will automatically classify the tags that the photo belongs to after it is uploaded. The result will be stored and displayed in frontend).
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot4.png?raw=true)
-#### 4. An user searching for photos with food in all of the albums he/she has permission to.
+#### 5. An user searching for photos with food in all of the albums he/she has permission to.
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot2.png?raw=true)
