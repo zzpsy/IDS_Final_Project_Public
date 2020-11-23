@@ -21,7 +21,7 @@
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot3.png?raw=true)
 #### 2. A user visting one of his/her own albums
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot1.png?raw=true)
-#### 3. A detailed look of the photo classification result
+#### 3. A detailed look of the previous photo classification result
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/detailes_about_tag.png)
 #### 4. A user uploading a new photo(the backend will automatically classify the tags that the photo belongs to after it is uploaded. The result will be stored and displayed in frontend).
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/screenshot4.png?raw=true)
