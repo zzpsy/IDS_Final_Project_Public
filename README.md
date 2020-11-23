@@ -12,7 +12,7 @@
 4. Bootstrap
 #### Main functionalities: 
 1. Each user can create multiple albums/set different permissions for different albums/upload & delete photos to the albums.
-2. The website will do image classification for the uploaded photos(the album will automatically "tag" the photos)
+2. The application will do image classification for the uploaded photos(the album will automatically "tag" the photos)
 3. The user can search a photo of the same kind in other albums that he/she has permission to access.
 ## Architecture:
 ![alt text](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/architecture.png?raw=true)
