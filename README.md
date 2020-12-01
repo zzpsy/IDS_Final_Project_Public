@@ -4,7 +4,7 @@
 #### You can click on the image below to watch the video demonstration.
 [![demo video](https://github.com/zzpsy/IDS_Final_Project_Public/blob/master/resource/youtube%20screenshot.png)](https://www.youtube.com/watch?v=3Xht7LwqyMQ "demo video")
 ## Description
-#### This project is an album web app created for the course IDS 706 Data Engineering Systems.
+#### This project is an album web app.
 #### Tools/framwork: 
 1. Flask
 2. AWS(EC2, S3, RDS, Rekognition, CodeBuild)
